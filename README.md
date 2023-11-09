@@ -1,8 +1,12 @@
 # Welcome to Learn JavaScript on the Now Platform!
 
 This repository contains examples used in the video series in folders corresponding to the lessons. 
-You can find the video series on the ServiceNow Developer 
-[YouTube channel](https://www.youtube.com/watch?v=62Nabpb94Jw&list=PL3rNcyAiDYK2_87aRvXEmAyD8M9DARVGK&index=1)
+
+## Sections
+
+1. The original series can be found here: [Learn JavaScript on the Now Platform with Chuck Tomasi](https://www.youtube.com/watch?v=62Nabpb94Jw&list=PL3rNcyAiDYK2_87aRvXEmAyD8M9DARVGK&index=1)
+2. The follow-up series can be found here: Learn MORE JavaScript on the ServiceNow Platform with Earl Duque
+3. And a series specifically on ECMAScript 2021 can be found here: Let's learn ECMAScript 2021 (ES2021) with Earl Duque
 
 Scripts use the naming structure **L(lesson#)S(script#).js**. 
 Example, L09S01.js refers to Lesson 9, script example 1. 
