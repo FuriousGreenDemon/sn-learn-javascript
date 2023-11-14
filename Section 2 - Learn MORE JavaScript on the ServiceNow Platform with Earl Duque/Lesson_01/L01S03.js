@@ -16,6 +16,5 @@ for (var i = 0; i < fruits.length; i++){
 
 // for...in loop
 for (var index in vegetables) {
-    // Notice, we get the index, not the value.
-    gs.info('At index ' + index + ' we have: ' + vegetables[index]);
+    gs.info('At index ' + index + ' we have: ' + vegetables[index]); // the customProperty appears!
 }
