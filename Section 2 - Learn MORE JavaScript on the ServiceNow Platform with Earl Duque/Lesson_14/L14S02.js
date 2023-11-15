@@ -1,15 +1,14 @@
 //
-// L14S02 - Evaluating scripts in records
+// L14S02 - GlideQuery with conditions and sorting
 //
 
-// Imagine we have a script stored in a field on a sys_script record.
-var scriptGR = new GlideRecord('sys_script');
-scriptGR.get('name', 'Calculate Duration');
-var scriptString = scriptGR.script.toString();
-
-// Evaluate the script in the context of an incident record.
-var incidentGR = new GlideRecord('incident');
-incidentGR.get('sys_id', 'someSysId');
-var duration = ge.evaluateScript(incidentGR, scriptString);
-
-gs.info('The calculated duration is: ' + duration);
+// Fetching incidents and sorting by creation date.
+new GlideQuery('incident')
+    .where('active', true)
+    .where('priority', '>', 2)
+    .orderBy('sys_created_on')
+    .limit(10)
+    .select('number', 'sys_created_on')
+    .forEach(function (incident) {
+        gs.info('Incident ' + incident.number + ' created on: ' + incident.sys_created_on);
+    })

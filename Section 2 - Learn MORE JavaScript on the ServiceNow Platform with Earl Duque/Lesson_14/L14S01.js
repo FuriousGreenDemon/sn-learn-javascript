@@ -1,12 +1,12 @@
 //
-// L14S01 - Basic GlideEvaluator usage
+// L14S01 - Basic GlideQuery Usage
 //
 
-// Let's create a script string that calculates the sum of two numbers.
-var script = 'var sum = arguments[0] + arguments[1]; sum;';
-
-// Now, we'll use GlideEvaluator to run this script.
-var ge = new GlideEvaluator();
-var result = ge.evaluateScript(g_scratchpad, script, [5, 7]);
-
-gs.info('The sum is: ' + result);
+// Use GlideQuery to retrieve active incidents with high priority.
+new GlideQuery('incident')
+    .where ('active', true)
+    .where ('priority', 1)
+    .select('number', 'short_description')
+    .forEach(function (incident) {
+        gs.info('Incident ' + incident.number + ': ' + incident.short_description);
+    });
