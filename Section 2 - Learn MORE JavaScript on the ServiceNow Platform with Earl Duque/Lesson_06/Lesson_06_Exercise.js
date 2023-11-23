@@ -4,7 +4,6 @@
 // Don't forget to "escape" certain characters
 // a{5} is how you would say "exactly five a's"
 
-
 // Solution
 var wordPattern = /\(\d{3}\) \d{3}-\d{4}/;
 var testString = '(123) 456-7890';

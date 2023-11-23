@@ -3,7 +3,7 @@
 // Read: https://codecreative.io/blog/interface-design-patterns-for-script-includes/
 //
 
-var NamespacePattern = {
+var MyServiceNowApp = {
     doSomething: function() {
         // Put function code here
     },
@@ -13,5 +13,5 @@ var NamespacePattern = {
     }
 };
 
-NamespacePattern.doSomething();
-NamespacePattern.doSomethingElse();
+MyServiceNowApp.doSomething();
+MyServiceNowApp.doSomethingElse();

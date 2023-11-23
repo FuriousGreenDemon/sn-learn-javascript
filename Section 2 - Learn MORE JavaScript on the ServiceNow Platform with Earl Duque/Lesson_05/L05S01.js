@@ -12,7 +12,7 @@ gs.info('The month is: ' + (now.getMonth() + 1)); // Remember, months are zero-i
 gs.info('The day is: ' + now.getDate());
 
 // You can also set specific parts of the date.
-now.setFullYear(2023);
+now.setFullYear(2020);
 gs.info('Changed year: ' + now.getFullYear());
 
 // And format dates into readable strings.

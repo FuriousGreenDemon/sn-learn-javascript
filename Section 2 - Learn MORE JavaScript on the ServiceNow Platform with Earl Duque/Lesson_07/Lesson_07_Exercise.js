@@ -7,6 +7,8 @@ Include nested objects and functions within this namespace.
 Access the functions using the namespace.
 */
 
+// Solution
+
 var MySNApp = {
     version: '1.0',
     init: function () {
