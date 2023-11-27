@@ -23,3 +23,6 @@ Solutions to lab exercises can also be found in the *Lab Solutions* folder.
 * [TechNow webinars](https://devlink.sn/technow)
 * [ServiceNow Community](https://community.servicenow.com)
 * [Stephen Bell's Scripting Best Practices Videos](https://www.youtube.com/user/ServiceNowCommunity/search?query=scripting+best+practices)
+* [Regular Expression Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
+* [Online RegEx Testing](https://regexr.com/)
+* [Script Design Problems](https://codecreative.io/blog/interface-design-patterns-for-script-includes/)
