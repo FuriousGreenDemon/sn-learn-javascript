@@ -5,7 +5,7 @@ This repository contains examples used in the video series in folders correspond
 ## Sections
 
 1. The original series can be found here: [Learn JavaScript on the Now Platform with Chuck Tomasi](https://www.youtube.com/watch?v=62Nabpb94Jw&list=PL3rNcyAiDYK2_87aRvXEmAyD8M9DARVGK&index=1)
-2. The follow-up series can be found here: Learn MORE JavaScript on the ServiceNow Platform with Earl Duque
+2. The follow-up series can be found here: [Learn MORE JavaScript on the ServiceNow Platform with Earl Duque](https://www.youtube.com/watch?v=OBRQtWk_nvg&list=PL3rNcyAiDYK2_87aRvXEmAyD8M9DARVGK&index=55)
 3. And a series specifically on ECMAScript 2021 can be found here: Let's learn ECMAScript 2021 (ES2021) with Earl Duque
 
 Scripts use the naming structure **L(lesson#)S(script#).js**. 
@@ -23,3 +23,6 @@ Solutions to lab exercises can also be found in the *Lab Solutions* folder.
 * [TechNow webinars](https://devlink.sn/technow)
 * [ServiceNow Community](https://community.servicenow.com)
 * [Stephen Bell's Scripting Best Practices Videos](https://www.youtube.com/user/ServiceNowCommunity/search?query=scripting+best+practices)
+* [Regular Expression Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
+* [Online RegEx Testing](https://regexr.com/)
+* [Script Design Problems](https://codecreative.io/blog/interface-design-patterns-for-script-includes/)
