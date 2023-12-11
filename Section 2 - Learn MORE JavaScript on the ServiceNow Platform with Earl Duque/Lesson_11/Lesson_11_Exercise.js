@@ -14,3 +14,5 @@ if (currentUser.hasRole('admin')) {
 } else {
   gs.info('Current user is not an admin.');
 }
+
+// Just note that hasRole returns true always if this script runs for an admin user!

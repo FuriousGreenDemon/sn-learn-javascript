@@ -10,5 +10,5 @@ gdtNow.addDaysLocalTime(5);
 gs.info('Date in 5 days: ' + gdtNow.getLocalDate().getByFormat('yyyy-MM-dd'));
 
 // Subtract 30 minutes from the current time.
-gdtNow.addMinutesLocalTime(-30);
+gdtNow.add(-1800000);
 gs.info('Time 30 minutes ago: ' + gdtNow.getLocalTime().getByFormat('HH:mm:ss'));

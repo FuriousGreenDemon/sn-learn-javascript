@@ -2,6 +2,8 @@
 // L09S01 - Counting records
 //
 
+// Remembering how we do it in GlideRecord
+
 var incidentGR = new GlideRecord('incident');
 incidentGR.addQuery('priority', '1');
 incidentGR.query();
