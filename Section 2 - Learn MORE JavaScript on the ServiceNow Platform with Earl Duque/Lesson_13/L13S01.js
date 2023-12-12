@@ -6,5 +6,8 @@
 g_form.setValue('short_description', 'This is a dynamic description');
 
 // Get the value from a field.
-var urgency = g_form.getValue('urgency');
-gs.info('Current urgency: ' + urgency);
+var urgency = 'The urgency is ' + g_form.getValue('urgency');
+g_form.setValue('short_description', urgency);
+
+// Combining into one so that you don't lose the original short_description
+g_form.setValue('short_description', g_form.getValue('short_description') + urgency);
