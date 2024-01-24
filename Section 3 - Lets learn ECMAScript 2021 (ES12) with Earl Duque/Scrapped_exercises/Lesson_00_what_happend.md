@@ -1,0 +1,3 @@
+All lesson exercises for the "Let's Learn ECMAScript 2021" series originally were recorded as videos but the pacing of the series felt way off due to the fact that some exercise videos were longer than the lesson themselves. Thus, all lesson videos were shelved. I was about to delete the lesson exercise files from this repository but decided to leave them here in a separate folder just in case someone out there is interestd.
+
+Enjoy!

@@ -3,7 +3,7 @@
 //
 
 // Example object
-var incidentRecord = {
+let incidentRecord = {
     incident: {
         id: 'INC001',
         details: {
@@ -14,5 +14,5 @@ var incidentRecord = {
 };
 
 // Accessing nested properties with optional chaining
-var assignedTo = incidentRecord.incident?.details?.assignedTo;
+let assignedTo = incidentRecord.incident?.details?.assignedTo;
 gs.info('Assigned to: ' + assignedTo); // Outputs: John Doe

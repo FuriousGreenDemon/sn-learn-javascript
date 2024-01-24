@@ -10,7 +10,7 @@ function setGreeting() {
 
 // In a Script Include or Business Rule, you might get a variable that can be null or undefined.
 // The nullish coalescing operator ensures that you have a valid value for further processing.
-var userInput = someFunctionThatMayReturnNullOrUndefined();
-var validInput = userInput ?? 'default input';
+let userInput = someFunctionThatMayReturnNullOrUndefined();
+let validInput = userInput ?? 'default input';
 
 gs.info('User input is: ' + validInput);

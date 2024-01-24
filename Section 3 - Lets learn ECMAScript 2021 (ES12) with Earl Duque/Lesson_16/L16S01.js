@@ -2,10 +2,10 @@
 // L16S01 - Shorthand properties and methods
 //
 
-var userId = 'u123';
-var userName = 'John Doe';
+let userId = 'u123';
+let userName = 'John Doe';
 
-var userObj = {
+let userObj = {
   userId,  // Shorthand property
   userName,
   logDetails() {  // Shorthand method

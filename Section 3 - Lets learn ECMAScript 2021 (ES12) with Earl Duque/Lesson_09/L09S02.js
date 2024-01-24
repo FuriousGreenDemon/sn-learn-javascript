@@ -4,5 +4,8 @@
 
 // Example using trimStart and trimEnd
 let userInput = '   ServiceNow   ';
-let trimmedInput = userInput.trimStart().trimEnd();
-gs.info('Trimmed Input: "' + trimmedInput + '"');
+let trimmedStartInput = userInput.trimStart();
+gs.info('Trimmed Input: "' + trimmedStartInput + '"');
+
+let trimmedEndInput = userInput.trimEnd();
+gs.info('Trimmed Input: "' + trimmedEndInput + '"');

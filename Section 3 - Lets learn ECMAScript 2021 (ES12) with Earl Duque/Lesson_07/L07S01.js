@@ -3,10 +3,10 @@
 //
 
 // Traditional string concatenation
-var user = 'John Doe';
-var welcomeMessage = 'Hello, ' + user + '! Welcome to ServiceNow.';
+let user = 'John Doe';
+let welcomeMessage = 'Hello, ' + user + '! Welcome to ServiceNow.';
 gs.info(welcomeMessage);
 
 // Using template literals
-var welcomeMessageLiteral = `Hello, ${user}! Welcome to ServiceNow.`;
+let welcomeMessageLiteral = `Hello, ${user}! Welcome to ServiceNow.`;
 gs.info(welcomeMessageLiteral);

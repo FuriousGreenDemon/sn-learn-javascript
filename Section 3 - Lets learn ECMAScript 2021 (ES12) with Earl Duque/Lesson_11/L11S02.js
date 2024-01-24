@@ -9,3 +9,10 @@ var user = {
     }
 };
 user.logName(); // Outputs: undefined
+
+function otherContext(){
+    this.name = "Abel";
+    user.logName();
+}
+   
+otherContext(); // 'Abel' is printed because 'this' context is maintained

@@ -3,7 +3,7 @@
 //
 
 // Object with a method
-var user = {
+let user = {
     profile: {
         getName: function () {
             return 'Jane Smith';
@@ -12,5 +12,5 @@ var user = {
 };
 
 // Safely calling a method
-var userName = user.profile?.getName?.();
+let userName = user.profile?.getName?.();
 gs.info('User name: ' + userName); // Outputs: Jane Smith
